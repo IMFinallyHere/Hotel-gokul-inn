@@ -1,0 +1,254 @@
+
+/*================ font families that can be used================== */
+/* font-family: 'Caveat Brush', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* ================================================================ */
+
+body{
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+
+.logo_img{
+  width: 12.5rem;
+}
+
+
+/* title section */
+
+#title{
+  /* background-image: url('/Users/priyanshkhandelwal/Desktop/web development/hotel gokul inn/images/hotel.jpeg'); */
+  background-color: #77473b;
+
+}
+
+#title .container-fluid{
+
+  padding: 0.2999999999999998rem 3.5999999999999996rem 10em;
+
+}
+#navbarSupportedContent{
+  margin-bottom: 5rem;
+}
+
+.navbar{
+  margin-bottom: 4.5rem;
+}
+.title-text{
+  /*font-size: 6rem;*/
+  font-family: 'Macondo';
+  color: white;
+  /*padding:0 18.25rem;*/
+
+}
+.nav-link{
+  padding: 8px 24px !important;
+}
+/* ====================================== */
+
+
+/* feature section */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+
+}
+
+.design{
+    color: #cb8e41;
+    font-size: -webkit-xxx-large;
+    padding-bottom: 2rem;
+}
+
+.design:hover{
+  color: #77473b;
+}
+#features p{
+  color: #8f8f8f;
+  padding: 1%;
+}
+
+#features .col-lg-4{
+  padding: 4%;
+}
+/* ========================================== */
+
+
+
+/* review section */
+#review{
+
+  background-color: #77473b;
+  color: white;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+#review p{
+  margin-bottom: 3rem;
+  padding: 0 4rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+/* ===================================== */
+
+
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+
+}
+.pricing-coloum{
+  padding: 3% 2%;
+}
+.card{
+  transition: transform .6s;
+}
+.card:hover{
+  transform: scale(1.1);
+
+}
+
+#pricing h1{
+  font-weight: 900;
+}
+#pricing h3{
+  font-weight: 600;
+
+
+}
+#pricing p{
+  color: #8f8f8f;
+}
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+/* ==================================== */
+/* about section */
+#about{
+  padding: 6rem;
+}
+#about h4{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+#about p{
+  text-align: left;
+}
+#about div div div div p{
+  text-align: center;
+  color: #8f8f8f;
+  padding-top: 10px;
+}
+.about-us{
+  padding-right: 3rem;
+  font-size: 20px;
+  color: #8f8f8f;
+  padding-top: 15px;
+}
+#about i{
+  font-size: 20px;
+  color: #77473b;
+}
+
+#about i:hover{
+  color: #cb8e41;
+
+}
+
+.facilities{
+  padding-top: 15px;
+}
+
+/* ======================================== */
+/* footer */
+
+.footer-block{
+  padding: 3rem 0 2rem;
+  background-color: #77473b;
+}
+#footer p{
+  color:white;
+  margin: 0;
+}
+/*========================================*/
+/* nearby secton */
+#nearby{
+  background-color: white;
+  text-align: left;
+  margin-right: 0;
+  overflow: hidden;
+}
+
+#nearby img {
+
+  width: 70%;
+  border-radius: 25px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin: 0 3rem 2rem;
+}
+
+.container-nerrby{
+  padding: 30px;
+  padding-left: 3rem;
+  padding-top: 6rem;
+}
+.place-desc{
+  padding: 0 4rem;
+}
+#nearby p{
+  font-size: 20px;
+  color: #8f8f8f;
+}

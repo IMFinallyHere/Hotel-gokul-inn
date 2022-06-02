@@ -1,0 +1,252 @@
+{% include 'header.html' %}
+
+      <div>
+        <h1 class="title-text">The place you'd love to be.</h1>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- features section -->
+  <section id='features'>
+    <div class="row">
+      <div class="col-lg-4 features-item">
+        <i class="fa-solid fa-indian-rupee-sign design"></i>
+        <h3>Affordable Prices</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4 features-item">
+        <i class="fa-solid fa-bed design"></i>
+        <h3>Comfortable Stay</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4 features-item">
+        <i class="fa-solid fa-map-location-dot design"></i>
+        <h3>Attractive Places</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- review section -->
+  <section id='review'>
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p>Nice place to stay. Very near to parikrama start point. Best part is they hold a big and safe parking space inside.</p>
+          <em>By:- Gaurav Singh</em>
+        </div>
+        <div class="carousel-item">
+          <p>Location of hotel is very convenient. Rooms are clean and ventilated. and very supportive staff.</p>
+          <em>By:- VIPIN DUBEY</em>
+        </div>
+        <div class="carousel-item">
+          <p>Room cleaning was good ,Food was amazing, staff treat all coustomer's like a family member.</p>
+          <em>By:- Hemant Kumar</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- pricing -->
+  <section id="pricing">
+
+    <h1>A Perfect Hotel You Need</h1>
+
+    <div class='row'>
+
+
+      <div class="pricing-coloum col-lg-4 col-md-6">
+        <div class="card">
+          <img src="{{url_for('static',filename='img/dd.jpeg')}}" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Double Delux</h3>
+            <p class="card-text">Well-furnished and designed double deluxe rooms feature air-conditioning, ergonomic work area, and LED HD TV. It comes with fine curtains, safety deposit box and tea and coffee amenities along with a mini-fridge.</p>
+            <button class="button-55" role="button">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pricing-coloum col-lg-4 col-md-6">
+        <div class="card">
+          <img src="{{url_for('static',filename='img/sud.jpeg')}}" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Super Delux</h3>
+            <p class="card-text">A haven of indulgence, the spacious deluxe rooms is facilitated by a range of state-of-the-art amenities accompanied by warm and efficient services. Wi-Fi enabled with ample broadband and the exclusive perks.</p>
+            <button class="button-55" role="button">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pricing-coloum col-lg-4">
+        <div class="card">
+          <img src="{{url_for('static',filename='img/fm.jpeg')}}" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Family</h3>
+            <p class="card-text">Designed specially to pamper its guests, the family room showcase a perfect blend of luxury in its accommodation with utmost security. The rooms bestow an elegant design combined with refined elegance.</p>
+            <button class="button-55" role="button">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+  <!-- contact  -->
+  <section id='contact'>
+    <div class="container-fluid">
+
+
+
+      <div class="row">
+
+        <div class="col-lg-6 contact-details">
+          <h4 class="fs-3">Contact Us</h4>
+
+          <p>We will get back to you within 24-hours.</p>
+          <h5>Write to us at:</h5>
+          <a href="#">hotelgokulinn4270@gmail.com</a>
+          <br>
+          <br>
+          <h5 class="call-us">Call us at:</h5>
+          <p>Mr. Santosh: <a href="#">+91 9058067333</a><br>Mr. Suraj: <a href="#">+91 8433459522</a></p>
+          <h5>Address:</h5>
+          <a href="https://www.google.com/maps/place/Hotel+Gokul+Inn/@27.4953372,77.4557202,17z/data=!3m1!4b1!4m8!3m7!1s0x39730f05dac8132d:0x525b67476080ae48!5m2!4m1!1i2!8m2!3d27.4953325!4d77.4579089" target="_blank">
+            <p>Gokul Complex Deeg Marg,<br>Govardhan, Uttar Pradesh 281502</p>
+          </a>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="container-contact1">
+
+
+            <form class="contact1-form validate-form">
+
+
+              <div class="wrap-input1 validate-input" data-validate="Name is required">
+                <input class="input1" type="text" name="name" placeholder="Name">
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                <input class="input1" type="text" name="email" placeholder="Email">
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="wrap-input1 validate-input" data-validate="Subject is required">
+                <input class="input1" type="text" name="subject" placeholder="Subject">
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="wrap-input1 validate-input" data-validate="Message is required">
+                <textarea class="input1" name="message" placeholder="Message"></textarea>
+                <span class="shadow-input1"></span>
+              </div>
+
+              <div class="container-contact1-form-btn">
+                <button class="contact1-form-btn">
+                  <span>
+                    Send
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- about -->
+  <section id='about'>
+    <div class="row">
+      <div class="col-lg-6">
+
+        <h4 class="fs-3">About Us</h4>
+        <p class="about-us">Bestowing excellent hospitality to its every category of guests, Hotel Gokul Inn reflects the culture and ethos of its location. With the perfect fusion of contemporary decor in the sumptuous interiors of the hotel, the hotel has set the
+          bar of services much higher than the expectations of its guests.</p>
+      </div>
+      <div class="col-lg-6">
+        <h4 class="fs-3">Facilities</h4>
+        <div class="row facilities">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-utensils"></i>
+            <p>Food</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-money-bills"></i>
+            <p>Atm</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-record-vinyl"></i>
+            <p>CCTV</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-tv"></i>
+            <p>Television</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-blender-phone"></i>
+            <p>Intercom</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-fan"></i>
+            <p>A/C</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-elevator"></i>
+            <p>Elevator</p>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <i class="fa-solid fa-square-parking"></i>
+            <p>Free Parking</p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6">
+
+            <i class="fa-solid fa-wifi"></i>
+            <p>Free Wifi</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+{% include 'footer.html' %}
